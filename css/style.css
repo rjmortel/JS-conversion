@@ -9,7 +9,7 @@
    font-size: 40px !important;
 }
 .converter { 
-    max-width: 1200px !important;
+    max-width: 400px !important;
 }
 .converter-text {
     font-family: 'Architects Daughter', cursive;
@@ -20,3 +20,9 @@
 .footer-text {
     font-family: 'Architects Daughter', cursive;
 }
+@media only screen and (min-width: 768px) {
+    .converter-head-logo {
+      font-size: 50px !important;
+      margin-top: 3px;
+    }
+  }
