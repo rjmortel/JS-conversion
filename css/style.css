@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.header {
+    max-width: 2560px !important;
+}
+.header-text {
+    font-family: 'Architects Daughter', cursive;
+}
+.converter-head-logo {
+   font-size: 40px !important;
+}
+.converter { 
+    max-width: 1200px !important;
+}
+.converter-text {
+    font-family: 'Architects Daughter', cursive;
+}
+.footer {
+    max-width: 2560px !important;
+}
+.footer-text {
+    font-family: 'Architects Daughter', cursive;
+}
