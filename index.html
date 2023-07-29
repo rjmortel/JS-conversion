@@ -12,30 +12,32 @@
     <script defer src="script/main.js"></script>
    
 
-  <section class="header container bg-secondary-subtle fixed-top d-flex justify-content-center">
+  <section class="header container bg-secondary-subtle shadow fixed-top d-flex justify-content-center">
     <span class="converter-head-logo material-symbols-rounded">directions_run</span>
     <h1 class="header-text mt-2">KILOME&#179;</h1>
   </section>
-  <br>
+  <br><br><br><br><br>
 
-<section class="converter container">
-    <br><br><br>
-    <div class="px-1 mb-3 mt-3">
-        <label for="formGroupExampleInput" class="form-label"><h5 class="converter-text text-danger">Kilometer (km)</h5></label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="From:">
+<section class="bg-primary-subtle converter p-2 container mt-3 shadow border rounded border-primary-subtle border-4">
+    <br>
+    <div class="px-1 mb-3">
+        <label for="formGroupExampleInput" class="form-label"><h5 class="converter-text1 m-0">Kilometer (km)</h5></label>
+        <input type="number" onkeyup="division(); multiplication1(); multiplication2()" onclick="division(); multiplication1(); multiplication2()" class="form-control" id="kiloMeter" name="kiloMeter" placeholder="From:">
       </div>
-      <div class="px-1 mb-3">
-        <label for="formGroupExampleInput2" class="converter-text form-label">Mile (mi)</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="To:">
+      <span class="converter-text">Mile (mi)</span>
+      <div class="bg-white container rounded p-1 border border-2 border-dark-subtle">
+        <span id="mileAnswer">To:</span>
       </div>
-      <div class="px-1 mb-3">
-        <label for="formGroupExampleInput2" class="converter-text form-label">Meter (m)</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="To:">
+      <span class="converter-text">Meter (m)</span>
+      <div class="bg-white container rounded p-1 border border-2 border-dark-subtle">
+        <span id="meterAnswer">To:</span>
       </div>
-      <div class="px-1 mb-3">
-        <label for="formGroupExampleInput2" class="converter-text form-label">Yard (yd)</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="To:">
+      <span class="converter-text">Yard (yd)</span>
+      <div class="bg-white container rounded p-1 border border-2 border-dark-subtle mb-4">
+        <span id="yardAnswer">To:</span>
       </div>
+     
+      
 </section>
 
 <!-- <section class="footer container bg-secondary-subtle fixed-bottom">
