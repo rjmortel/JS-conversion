@@ -10,7 +10,7 @@
    color: #FFAB00;
 }
 .converter { 
-    max-width: 400px !important;
+    max-width: 400px !important;  
     /* background-color: #ffaa00b0; */
 }
 .converter-text1 {
@@ -20,6 +20,9 @@
 }
 .converter-text {
     font-family: 'Architects Daughter', cursive;
+}
+.conv-text {
+    font-weight: lighter;
 }
 .footer {
     max-width: 2560px !important;
