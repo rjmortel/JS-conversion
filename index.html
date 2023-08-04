@@ -31,21 +31,30 @@
 <section class="bg-secondary-subtle converter p-2 container mt-3 shadow border rounded border-4">
     <br>
     <div class="px-1 mb-3">
-        <label for="formGroupExampleInput" class="form-label"><h5 class="converter-text1 m-0">Kilometer (km)</h5></label>
-        <input type="number" onkeyup="division(); multiplication1(); multiplication2()" onclick="division(); multiplication1(); multiplication2()" class="form-control" id="kiloMeter" name="kiloMeter" placeholder="From:">
+        <label for="formGroupExampleInput" class="form-label"><h5 class="converter-text1 m-0">Distance Conversion</h5></label>
+        <input type="number" class="form-control" id="num" name="kiloMeter" placeholder="">
       </div>
-      <span class="converter-text">Mile (mi)</span>
-      <div class="bg-white container rounded p-1 border border-2 border-dark-subtle">
-        <span class="conv-text p-2" id="mileAnswer">To:</span>
-      </div>
-      <span class="converter-text">Meter (m)</span>
-      <div class="bg-white container rounded p-1 border border-2 border-dark-subtle">
-        <span class="conv-text p-2" id="meterAnswer">To:</span>
-      </div>
-      <span class="converter-text">Yard (yd)</span>
-      <div class="bg-white container rounded p-1 border border-2 border-dark-subtle mb-4">
-        <span class="conv-text p-2" id="yardAnswer">To:</span>
-      </div>    
+    <div class="container">
+     <label for="distance"></label>
+     <select name="distance" id="distance">
+      <option>Kilometer</option>
+      <option>Mile</option>
+      <option>Yard</option>
+     </select>
+
+        <span>to</span>
+
+     <label for="distance2"></label>
+     <select name="distance2" id="distance2">
+      <option>Kilometer</option>
+      <option>Mile</option>
+      <option>Yard</option>
+     </select>
+     <div class="container border border-3">
+     <h4 id="answer">Result Here..</h4>
+     <input type="button" value="click here" onclick="answer()">
+     </div>
+    </div>
 </section>
 
 <!-- <section class="footer container bg-secondary-subtle fixed-bottom">
